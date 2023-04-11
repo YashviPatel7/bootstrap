@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+:root {
+    --bs-body-font-family: 'Inter', sans-serif;
+    --fn-color: #284B80;
+    --fn-gray: #8D98AA;
+    --btn-primary: #1DC6BB;
+}
+
+.man-img {
+    max-width: 300px;
+    min-height: 250px;
+}
+
+/* .man-fig {
+    max-width: 300px;
+} */
+
+.card {
+    max-width: 800px;
+
+}
+
+.card-title {
+    color: var(--fn-color);
+}
+
+.card-text {
+    color: var(--fn-gray)
+}
+
+.h3 {
+    color: var(--fn-color);
+}
+
+.card-content {
+    background-color: #F7F9FF;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: var(--btn-primary);
+    color: #ffffff;
+    border: 0;
+    /* padding: 12px 30px; */
+}
+
+.btn-outline-primary {
+    background-color: #ffffff;
+    color: var(--btn-primary);
+    border: 1px solid var(--btn-primary);
+    /* padding: 12px 30px; */
+}
+
+/* .btn-primary:hover {
+    background-color: #ffffff;
+    color: var(--btn-primary);
+    border: 1px solid var(--btn-primary);
+
+} */
