@@ -11,10 +11,12 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
-    <main class="container">
+
+<body class="bg-dark">
+    <main class="container bg-dark">
+        <div class="form-text pt-4 mx-2 fs-4">Rainbow Insurance Card styles</div>
         <div class="row">
-            <div class="col d-flex flex-column justify-content-between align-items-center p-3">
+            <div class="col d-flex flex-column justify-content-between align-items-center p-3 mx-4 my-4 bg-white">
                 <strong class="align-self-start">Premium Estimator</strong>
                 <span class="color-green p-3">(Your monthly revenue: $50,000)</span>
                 <span class="h1">$214.98 <spn class="h5">/mo*</spn></span>
@@ -24,7 +26,7 @@
                 <div class="form-text text-center mb-3">Slide your monthly revenue estimate to see how your premium may
                     change</div>
             </div>
-            <div class="col card-two d-flex flex-column justify-content-around p-4">
+            <div class="col  card-two d-flex flex-column justify-content-around p-4 my-4">
                 <div>
                     <figure class="mb-4">
                         <img src="./assets/images/cards-coin.png" alt="coin">
@@ -34,7 +36,7 @@
                 </div>
                 <div class="h5 text-decoration-underline">Contact us</div>
             </div>
-            <div class="col d-flex flex-column justify-content-evenly">
+            <div class="col  d-flex flex-column justify-content-evenly bg-white my-4 mx-4">
                 <div>
                     <span class="form-text">Total Premium for last 6 months
                     </span>
@@ -47,8 +49,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col p-2">
-                <div class="col p-2">
+            <div class="col my-0 mx-3">
+                <div class="col p-3 bg-white">
                     <figure>
                         <img src="./assets/images/cards-3.png" alt="img3">
                     </figure>
@@ -57,7 +59,7 @@
                         may
                         change</div>
                 </div>
-                <div class="col d-flex flex-row justify-content-between p-2 align-items-center mt-2">
+                <div class="col d-flex flex-row justify-content-between p-3 align-items-center mt-4 bg-white">
                     <figure>
                         <img src="./assets/images/cards-4.png" alt="img4">
                     </figure>
@@ -68,7 +70,7 @@
                     <div><button class="revoke">Revoke</button></div>
                 </div>
             </div>
-            <div class="col d-flex flex-column justify-content-evenly">
+            <div class="col d-flex flex-column justify-content-evenly bg-white my-0">
                 <figure>
                     <img src="./assets/images/cards-5.png" alt="img5">
                 </figure>
@@ -79,16 +81,24 @@
                 <span class="form-text">*based on last month's revenu</span>
                 <span class="color-green">Due via credit card on 5/21</span>
             </div>
-            <div class="col bg-green d-flex flex-column justify-content-evenly">
+            <div class="col bg-green d-flex flex-column justify-content-evenly my-0 mx-4">
                 <span class="fs-5 border-bottom p-2">Your Flexible Quote</span>
-                <span class="h1">$214.98 <spn class="h5">/mo*</spn></span>
-                <span class="color-gray p-3">(Recurring payment)</span>
-                <div>
-                    <button class="btn-purchase">Purchase</button>
-                    <button class="btn-share">Share</button>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <span class="h1">$214.98 <spn class="h5">/mo*</spn></span>
+                    <span class="color-gray">(Recurring payment)</span>
+                    <div class="p-4 mt-3">
+                        <button class="btn-purchase fw-bold">Purchase <img src="./assets/images/cards-arroright.png"
+                                alt=""></button>
+                        <button class="btn-share mx-2 fw-bold">Share <img src="./assets/images/cards-arrowup.png"
+                                alt=""></button>
+                    </div>
+                    <span class="mb-4">Preview Insurance</span>
                 </div>
-                <span>Preview Insurance</span>
-                <span>The first month based on estimated sales</span>
+
+
+                <div class="bg-dark-green p-2 d-flex justify-content-center align-items-center">
+                    <p class="">The first month based on estimated sales</p>
+                </div>
             </div>
 
         </div>
