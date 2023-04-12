@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --fn-gray: #6E7491;
+    --fn-gray-light: #7C8DB0;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-300: 300;
+    --fn-sm: 14px;
+}
+
+.img-wrapper {
+    width: 492px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+* {}
+
+/* first card classes*/
+.beach-img {
+    object-fit: cover;
+}
+
+.card {
+    width: 492px;
+    --bs-card-border-width: 0;
+    --bs-body-font-family: 'Inter', sans-serif;
+}
+
+.card-title {
+    color: var(--fn-gray);
+    font-weight: var(--fw-600);
+}
+
+.card-text {
+    font-size: var(--fn-sm);
+    color: var(--fn-gray-light);
+    line-height: 2;
+    font-weight: var(--fw-300);
+}
+
+.map-img {
+    width: 20px;
+}
+
+.h3 {
+    font-weight: var(--fw-500);
+    font-size: var(--fn-sm);
+}
+
+.btn-primary {
+    --bs-btn-bg: #2D9CDB;
+    --bs-btn-hover-bg: #1c6b99;
+    border: 0;
+}
+
+.btn {
+    padding: 8px 120px;
+}
+
+/* second card classes*/
+.second-card {
+    width: 775px;
+    --bs-body-font-family: 'Poppins', sans-serif;
+    /* 'Poppins', sans-serif; */
+}
