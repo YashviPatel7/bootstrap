@@ -2,6 +2,8 @@
 :root {
     --fn-gray: #6E7491;
     --fn-gray-light: #7C8DB0;
+    --primary-color: #EB5757;
+    --white-color: #ffffff;
     --fw-600: 600;
     --fw-500: 500;
     --fw-300: 300;
@@ -27,6 +29,12 @@ body {
     width: 492px;
     --bs-card-border-width: 0;
     --bs-body-font-family: 'Inter', sans-serif;
+    --bs-card-border-radius: 20px;
+}
+
+.card-img,
+.card-img-top {
+    --bs-card-inner-border-radius: 20px
 }
 
 .card-title {
@@ -39,6 +47,10 @@ body {
     color: var(--fn-gray-light);
     line-height: 2;
     font-weight: var(--fw-300);
+}
+
+.text-w {
+    width: 125px;
 }
 
 .map-img {
@@ -57,12 +69,40 @@ body {
 }
 
 .btn {
-    padding: 8px 120px;
+    padding: 5px 120px;
 }
 
 /* second card classes*/
 .second-card {
     width: 775px;
     --bs-body-font-family: 'Poppins', sans-serif;
-    /* 'Poppins', sans-serif; */
+    background-color: var(--white-color);
+    border-radius: 20px;
+}
+
+.second-card-left {
+    width: 298px;
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.color-white {
+    color: var(--white-color);
+}
+
+.frame-text {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.text-with {
+    width: 245px;
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--primary-color);
+    border: 0;
+    padding: 8px 60px;
+    border-radius: 20px;
 }
