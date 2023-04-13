@@ -123,13 +123,11 @@ html {
   color: #f7f9fb;
   padding: 15px;
 }
-
 .list-item:hover {
   background-color: #000000;
   border-radius: 15px;
   color: #1bd2ec;
 }
-
 .list-item:hover .link-item {
   color: #1bd2ec;
 }
@@ -196,6 +194,4 @@ html {
 
 .red {
   color: #ce282f;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

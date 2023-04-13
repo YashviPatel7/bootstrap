@@ -112,6 +112,7 @@ $gray: #6284a3;
     background-color: $dark;
     width: 250px;
     @include padding(1rem, 1rem, 1rem, 0.5rem);
+    flex-shrink: 0;
 }
 
 .text-title {
