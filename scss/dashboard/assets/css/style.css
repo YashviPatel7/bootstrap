@@ -103,6 +103,14 @@ html {
   padding-bottom: 1rem;
   padding-left: 0.5rem;
   flex-shrink: 0;
+  transition: 3s ease-in-out;
+  flex: 0 0 250px;
+}
+
+#toggle:checked + .sidebar {
+  transform: translateX(-250px);
+  width: 0;
+  flex: 0;
 }
 
 .text-title {
@@ -123,13 +131,11 @@ html {
   color: #f7f9fb;
   padding: 15px;
 }
-
 .list-item:hover {
   background-color: #000000;
   border-radius: 15px;
   color: #1bd2ec;
 }
-
 .list-item:hover .link-item {
   color: #1bd2ec;
 }
@@ -144,8 +150,7 @@ html {
   background-color: #15181b;
   color: #f7f9fb;
   padding: 15px;
-  width: 100%;
-  max-width: 290px;
+  flex-basis: 25%;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0px 1px 7px rgba(133, 133, 133, 0.2784313725);
@@ -196,6 +201,4 @@ html {
 
 .red {
   color: #ce282f;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

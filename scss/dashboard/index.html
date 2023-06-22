@@ -19,6 +19,7 @@
 
 <body>
     <div class="main-wrapper d-flex">
+        <input type="checkbox" id="toggle" style="display: none;">
         <aside class="sidebar">
             <div class="text-title d-flex">
                 <img src="./assets/images/logo.png" alt="logo">
@@ -34,7 +35,10 @@
         </aside>
         <main class="content-wrapper flex-grow-1 d-flex flex-column">
             <header class="dashboard-header d-flex justify-content-between">
-                <h3 class="d-flex justify-content-center align-items-center">Dashboard</h3>
+
+                <div class="d-flex justify-content-center align-items-center"><label for="toggle"><span
+                            class="fa fa-bars "></span></label> Dashboard
+                </div>
                 <div class="employee d-flex justify-content-center align-items-center">
                     <img src="./assets/images/lady.png" alt="lady" class="employee-img">
                     <div class="employee-profile">
@@ -71,7 +75,7 @@
                     <div>
                         <span class="fa fa-futbol purpal"></span>
                         <span class="fa fa-instagram yellow margin-left-25"></span>
-                        <span class="fa fa-facebook light-blue margin-left-25"></span>
+                        <span class="fa fa-facebook-f light-blue margin-left-25"></span>
                         <span class="fa fa-gift red margin-left-25"></span>
                     </div>
                 </section>

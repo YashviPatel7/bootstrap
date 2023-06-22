@@ -17,18 +17,18 @@ html {
     --btn-primary: #1DC6BB;
 }
 
-.man-img {
-    max-width: 300px;
-    min-height: 250px;
+.img-wrapper {
+    width: 300px;
+    height: 250px;
 }
 
-/* .man-fig {
-    max-width: 300px;
-} */
+.man-img {
+    object-fit: cover;
+}
 
 .card {
     max-width: 800px;
-
+    width: 100%;
 }
 
 .card-title {
